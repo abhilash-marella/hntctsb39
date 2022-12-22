@@ -40,7 +40,7 @@ public class OrderService {
 	}
 	
 	public Order getOrderDetails(int id) throws OrderException {
-		Order order = dao.findOrder(id);  
+		Order order = dao.findOrder(id);
 		// null, exception, order with id less than 0
 		return order;
 	}
