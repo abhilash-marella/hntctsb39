@@ -1,9 +1,17 @@
+Error Handling
+Promises, async/await - Recursion and Stack, Closure, Rest Parameters and Spread Operators, Global Object, 
+Arrow Functions, 
+Promise, async/await
+
+ES6
 
 
-Parameterized Test
+Browser- Documents, Events, Interface - UI Events, Forms, Control, Document and Resource Loading, Interfaces, Frames and Windows, Web Components, Regular Expression
 
-
-hooks
-mocking
-
-
+Live Reload
+Optimization
+Incorrect use of functions definitions inside the loop
+Use appropriate equality
+Using switching instead of 'if' in strict comparisions
+Incorrect references to instance methods
+Breaking a return statement
