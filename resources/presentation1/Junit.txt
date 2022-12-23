@@ -1,0 +1,17 @@
+Ignored from presentation1
+
+Create a calculator with divide method.
+
+Write test cases to test divide method with all the possible scenarios.
+	Ex:
+		Should div num by num
+		Should not div by zero
+		
+
+
+-------------
+
+
+
+// Complete Order application with fetch order by id method and write all possible test cases using mockito (mocking);
+
