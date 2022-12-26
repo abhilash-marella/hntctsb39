@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #usererror, #pwderror{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" onsubmit="validate(event)">
+        <div>
+            Username: <input type="text" name="uname" placeholder="Enter username" />
+            <span id="usererror"></span>
+        </div>
+        <div>
+            Password: <input type="text" name="upwd" placeholder="Enter password" />
+            <span id="pwderror"></span>
+        </div>
+        <input type="submit" value="Login" />
+    </form>
+
+    <script>
+        let validate = function(event){
+            let username = document.getElementsByName("uname")[0].value;
+            let password = document.getElementsByName("upwd")[0].value;
+
+            console.log("Username: "+username);
+            console.log("Password: "+password);
+
+            let userexp = new RegExp("^([a-zA-Z])+$");
+            let pwdexp = new RegExp("^([a-zA-Z0-9]){4,}$");
+
+            console.log("Testing username: "+userexp.test(username))
+            console.log("Testing password: "+pwdexp.test(password))
+
+                if(userexp.test(username)&&pwdexp.test(password)){
+                    // submit data
+                } else {
+                    event.preventDefault();
+                    if(!userexp.test(username)){
+                        console.log("username is not valid");
+                        document.getElementById("usererror").innerText = "username is not valid"
+                    }else {
+                        document.getElementById("usererror").innerText = ""
+                    }
+                    if(!pwdexp.test(password)){
+                        console.log("password is not valid");
+                    }
+                    // show error messages
+                }
+            // alert("demo");
+        }
+    </script>
+</body>
+</html>
+
