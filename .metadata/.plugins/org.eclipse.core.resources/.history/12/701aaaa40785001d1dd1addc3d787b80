@@ -1,0 +1,29 @@
+package database;
+
+import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
+
+public class databaseclass {
+	Item item1= new Item(101,"samsung s22",100000.00,"mobile");
+	Item item2= new Item(102,"iphone 14 ",74000.00,"mobile");
+	Item item3= new Item(103,"apache rr310 ",274000.00,"automobiles");
+	Item item4= new Item(104,"t shirt ",740.00,"clothes");
+	
+	Customer cust1= new Customer(1,"abhilash", "male", "Hyderabad");
+	Customer cust2= new Customer(2,"ajay", "male", "bangolore");
+	Customer cust3= new Customer(3,"preethi", "female", "Hyderabad");
+	Customer cust4= new Customer(4,"sruthi", "female", "delhi");
+
+	Order order1= new Order(1, "shipping", LocalDate.of(2022, 12, 25), LocalDate.of(2022, 12, 30),Arrays.asList(item1,item3), cust1);
+	Order order2= new Order(1, "delivered", LocalDate.of(2022, 12, 25), LocalDate.of(2022, 12, 30),Arrays.asList(item2), cust2);
+	Order order3= new Order(1, "cancelled", LocalDate.of(2022, 12, 25), LocalDate.of(2022, 12, 30),Arrays.asList(item4,item3), cust3);
+	Order order4= new Order(1, "deliverd", LocalDate.of(2022, 12, 25), LocalDate.of(2022, 12, 30),Arrays.asList(item4), cust4);
+	 
+	public void getAllCustomer()
+	
+	{
+		List<Customer> customers= Arrays.asList(cust1,cust2,cust3,cust4);
+		
+	}
+}

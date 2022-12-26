@@ -1,0 +1,29 @@
+package week1java8;
+
+import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import database.Customer;
+import database.Item;
+import database.Order;
+import database.databaseclass;
+
+public class Week1java8 {
+
+	public static void main(String[] args) {
+	
+
+databaseclass ds =new databaseclass();
+List<Item> items  =ds.getAllItem();
+List <Item> moblies= items.stream().filter(item->item.getCategory().equalsIgnoreCase("Mobiles")).collect(Collectors.toList());
+System.out.println(moblies);
+
+	}
+	
+
+
+}

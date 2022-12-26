@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderServiceTest" project="p03-springboot-testing" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.app.OrderServiceTest" time="0.001" displayname="OrderServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.app.OrderServiceTest]">
+    <testcase name="shouldPlaceOrder" classname="com.app.OrderServiceTest" time="0.001" displayname="shouldPlaceOrder()" uniqueid="[engine:junit-jupiter]/[class:com.app.OrderServiceTest]/[method:shouldPlaceOrder()]"/>
+    <testcase name="shouldNotPlaceOrderWhenDbErrorOccurs" classname="com.app.OrderServiceTest" time="0.0" displayname="shouldNotPlaceOrderWhenDbErrorOccurs()" uniqueid="[engine:junit-jupiter]/[class:com.app.OrderServiceTest]/[method:shouldNotPlaceOrderWhenDbErrorOccurs()]"/>
+    <testcase name="shouldNotPlaceOrderGetsNull" classname="com.app.OrderServiceTest" time="0.0" displayname="shouldNotPlaceOrderGetsNull()" uniqueid="[engine:junit-jupiter]/[class:com.app.OrderServiceTest]/[method:shouldNotPlaceOrderGetsNull()]"/>
+    <testcase name="shouldNotPlaceOrder" classname="com.app.OrderServiceTest" time="0.0" displayname="shouldNotPlaceOrder()" uniqueid="[engine:junit-jupiter]/[class:com.app.OrderServiceTest]/[method:shouldNotPlaceOrder()]"/>
+  </testsuite>
+</testrun>
