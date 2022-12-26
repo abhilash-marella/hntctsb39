@@ -1,17 +1,6 @@
-Error Handling
-Promises, async/await - Recursion and Stack, Closure, Rest Parameters and Spread Operators, Global Object, 
-Arrow Functions, 
-Promise, async/await
-
-ES6
+html5
+----------
+Forms- Regular Expression
 
 
-Browser- Documents, Events, Interface - UI Events, Forms, Control, Document and Resource Loading, Interfaces, Frames and Windows, Web Components, Regular Expression
-
-Live Reload
-Optimization
-Incorrect use of functions definitions inside the loop
-Use appropriate equality
-Using switching instead of 'if' in strict comparisions
-Incorrect references to instance methods
-Breaking a return statement
+typescript => 15min + 15min
