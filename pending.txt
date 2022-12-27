@@ -1,6 +1,0 @@
-html5
-----------
-Forms- Regular Expression
-
-
-typescript => 15min + 15min
