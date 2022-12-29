@@ -1,11 +1,4 @@
 
-Overriding auto-configured beans
-Reducing code with custom auto configurations 
- - @EnableAutoConfiguration
- - writing own custom auto configuration
-Configuring with external properties
-
-
 Principles of REST
 Using HTTP GET, PUT, POST, DELETE
 Using @Service Annotation Class for Business Layer
@@ -16,19 +9,17 @@ Using Custom Response
 Modifying Response Formats
 Writing a RESTful Web Services with JSON"
 
-Working with Spring Boot Starters
-	starter-web
 
 Working with swagger and Postman Utility
 Rest Clients
 
 
 Customizing Error Pages
-
-
 Errors and Exception Handling
 
-Spring Test,Write Mocks with Mocking Framework
+
+
+Spring Test, Write Mocks with Mocking Framework
 
 
 Spring Security to configure Basic Authentication and JWT
