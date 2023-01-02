@@ -1,28 +1,20 @@
 
-Principles of REST
-Using HTTP GET, PUT, POST, DELETE
-Using @Service Annotation Class for Business Layer
-Spring Data  | Spring Data Schema | Spring Data Services
+
 HTTP Caching
-Retrieving LIST in REST
+
 Using Custom Response
+Errors and Exception Handling
 Modifying Response Formats
-Writing a RESTful Web Services with JSON"
 
-
-Working with swagger and Postman Utility
-Rest Clients
+Working with swagger
 
 
 Customizing Error Pages
-Errors and Exception Handling
 
 
 
 Spring Test, Write Mocks with Mocking Framework
 
-
-Spring Security to configure Basic Authentication and JWT
 
 
 Concepts: Microservice Introduction
@@ -39,3 +31,7 @@ Implementation: Microservices Concept
 Standard Project Structure for Spring Boot Projects
 Handle Circular dependencies
 Dependency Injection
+
+
+
+
