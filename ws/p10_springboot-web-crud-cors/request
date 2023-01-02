@@ -1,0 +1,23 @@
+GET
+http://localhost:8080/moviesapp/v1/movies
+// all movies from database
+
+GET
+http://localhost:8080/moviesapp/v1/movies/{id}
+// find movie by id from database
+
+POST
+http://localhost:8080/moviesapp/v1/movies 
+data in request body
+// save movie in database
+
+PUT
+http://localhost:8080/moviesapp/v1/movies/{id}
+movie to be updated is in body
+// update movie in database if id is available
+
+DELETE
+http://localhost:8080/moviesapp/v1/movies/{id}
+// remove movie from database if id is available
+
+

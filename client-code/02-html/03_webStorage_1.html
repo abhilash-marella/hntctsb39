@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./03_webStorage_2.html" method="get" onsubmit="validate(event)">
+        <div>
+            Username: <input 
+                type="text" 
+                name="uname" 
+                pattern="^([a-zA-Z])+$"
+                placeholder="Enter username"
+                required
+            />
+        </div>
+        <div>
+            Password: <input type="text" required name="upwd" placeholder="Enter password" />
+        </div>
+        <input type="submit" value="Login" />
+    </form>
+
+    <script>
+        let validate = function(event){
+            // event.preventDefault();
+            let username = document.getElementsByName("uname")[0].value;
+            // localStorage.setItem("username", username);
+            sessionStorage.setItem("username", username);
+            console.log("submitting form data");
+        }
+
+    </script>
+</body>
+</html>
+

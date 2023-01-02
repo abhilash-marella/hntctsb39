@@ -1,0 +1,19 @@
+Install npm 
+    Install nodejs (platform - to run javascript as backend language)
+    https://nodejs.org/en/download/
+    $ npm -v
+Install typescript
+    $ npm install -g typescript 
+    $ tsc -v
+Go to project
+    $ tsc 01_basic.ts
+
+    $ tsc --init 
+
+    tsconfig.json
+        "target": "es5",  
+         "baseUrl": "./src",  
+         "outDir": "./build",
+
+Compile
+    $ tsc -p .
