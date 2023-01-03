@@ -1,0 +1,19 @@
+GET http://localhost:8080/moviesapp/v1/movies
+
+###
+
+GET http://localhost:8080/moviesapp/v1/movies/1
+###
+
+GET http://localhost:8080/moviesapp/v1/movies/2
+###
+
+GET http://localhost:8080/moviesapp/v1/movies/3
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+GET http://localhost:8080/greet
+
+###
+GET http://localhost:8080/
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOToyNDoxNS42MDAyNjY1MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIiLCJtZXNzYWdlIjoic29tZSBvdGhlciBtZXNzYWdlIiwiZXhwIjoxNjcyNzE4MzU1LCJpYXQiOjE2NzI3MTgwNTV9.VE9kvYscx6sCdxtV_Xh7aI6t40BphJ2CatwJaE3acawprl1P0FXCuChGCVcWNoukj-yiBcLl3n3pBaq7I8ui1A
+
+###
+GET http://localhost:8080/users
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOToyNDoxNS42MDAyNjY1MDAiLCJzdWIiOiJkZW1vIiwicm9sZSI6InVzZXIiLCJtZXNzYWdlIjoic29tZSBvdGhlciBtZXNzYWdlIiwiZXhwIjoxNjcyNzE4MzU1LCJpYXQiOjE2NzI3MTgwNTV9.VE9kvYscx6sCdxtV_Xh7aI6t40BphJ2CatwJaE3acawprl1P0FXCuChGCVcWNoukj-yiBcLl3n3pBaq7I8ui1A
+
+###
+
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "demo",
+    "password": "demo@123"
+}

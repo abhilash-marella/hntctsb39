@@ -1,0 +1,9 @@
+GET http://localhost:9001/cinema/shows
+
+###
+
+GET http://localhost:9001/cinema/shows/movies 
+
+###
+
+GET http://localhost:9002/moviesapp/v1/movies

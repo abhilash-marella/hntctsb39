@@ -1,7 +1,4 @@
 
-
-HTTP Caching
-
 Using Custom Response
 Errors and Exception Handling
 Modifying Response Formats
@@ -13,22 +10,14 @@ Customizing Error Pages
 
 
 
-Spring Test, Write Mocks with Mocking Framework
+Spring Test
+Write Mocks with Mocking Framework
 
-
-
-Concepts: Microservice Introduction
-Monolithic System / Architecture / Advantages, / Limitations
-Microservices Introduction / Advantages / Architecture
-Monolithic vs Microservices
-Microservices Challenges
-Best Practices
-Writing a REST Client
 
 
 Implementation: Microservices Concept
 12 Factor Principles
-Standard Project Structure for Spring Boot Projects
+
 Handle Circular dependencies
 Dependency Injection
 
