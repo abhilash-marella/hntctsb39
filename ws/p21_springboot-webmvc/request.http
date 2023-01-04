@@ -1,0 +1,10 @@
+GET http://localhost:8080/greet 
+###
+GET http://localhost:8080/users 
+###
+GET http://localhost:8080/home 
+###
+GET http://localhost:8080/login 
+###
+GET http://localhost:8080/register
+###
