@@ -1,0 +1,48 @@
+GET http://localhost:8080/greet
+
+###
+GET http://localhost:8080/
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOTo1NTo1Ny41ODEzMDk1MDAiLCJzdWIiOiJ1c2VyMyIsInJvbGUiOiJ1c2VyIiwibWVzc2FnZSI6InNvbWUgb3RoZXIgbWVzc2FnZSIsImV4cCI6MTY3MjcyMzU1NywiaWF0IjoxNjcyNzE5OTU3fQ.M4uIHYwL5pvNgNf1Mc4-OkF0rVMVU07Ne7hduaJyBhmfscMHi97a3TGBB2R0gXKWiX4my4lEkylFM02JMQBhtA
+
+###
+GET http://localhost:8080/demo/item/block
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOTo1MTo1OS41NDkwMTM3MDAiLCJzdWIiOiJ1c2VyMSIsInJvbGUiOiJ1c2VyIiwibWVzc2FnZSI6InNvbWUgb3RoZXIgbWVzc2FnZSIsImV4cCI6MTY3MjcyMzMxOSwiaWF0IjoxNjcyNzE5NzE5fQ.8N1XfhJF4lN99mhdPO-qJHxBudib4palNFzNp1gJAdNsWdw4v0XmYcOwNRpNorxzT6ar6yrlNp60O7SCfALUEg
+
+###
+
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "user1",
+    "password": "demo@123"
+}
+###
+
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "user2",
+    "password": "demo@123"
+}
+###
+
+POST http://localhost:8080/authenticate
+content-type: application/json
+
+{
+    "username": "user3",
+    "password": "demo@123"
+}
+
+
+###
+# admin
+# Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOTo1MTo1OS41NDkwMTM3MDAiLCJzdWIiOiJ1c2VyMSIsInJvbGUiOiJ1c2VyIiwibWVzc2FnZSI6InNvbWUgb3RoZXIgbWVzc2FnZSIsImV4cCI6MTY3MjcyMzMxOSwiaWF0IjoxNjcyNzE5NzE5fQ.8N1XfhJF4lN99mhdPO-qJHxBudib4palNFzNp1gJAdNsWdw4v0XmYcOwNRpNorxzT6ar6yrlNp60O7SCfALUEg
+
+# seller
+# Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOTo1Mjo0OC4xNjIwMTA3MDAiLCJzdWIiOiJ1c2VyMiIsInJvbGUiOiJ1c2VyIiwibWVzc2FnZSI6InNvbWUgb3RoZXIgbWVzc2FnZSIsImV4cCI6MTY3MjcyMzM2OCwiaWF0IjoxNjcyNzE5NzY4fQ.h2ikzq5mFOey1WDCcf1Nfjto27AHps1nFVeJoZqhimRAIENeBFucYUn2Sx8AMgNjnNSHCgIB4-P5wLQCqPxUww
+
+# buyer
+# Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJkYXRlIjoiMjAyMy0wMS0wM1QwOTo1NTo1Ny41ODEzMDk1MDAiLCJzdWIiOiJ1c2VyMyIsInJvbGUiOiJ1c2VyIiwibWVzc2FnZSI6InNvbWUgb3RoZXIgbWVzc2FnZSIsImV4cCI6MTY3MjcyMzU1NywiaWF0IjoxNjcyNzE5OTU3fQ.M4uIHYwL5pvNgNf1Mc4-OkF0rVMVU07Ne7hduaJyBhmfscMHi97a3TGBB2R0gXKWiX4my4lEkylFM02JMQBhtA
