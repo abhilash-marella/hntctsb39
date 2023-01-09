@@ -53,8 +53,8 @@ public class WebSecurityConfig {
                     .antMatchers("/authenticate", "/greet").permitAll()
 //					.antMatchers("/all/**").access("hasAnyRole('DIRECTOR','ADMIN')")
 					.antMatchers("/demo/item/block").access("hasRole('ADMIN')")
-					.antMatchers("/demo/item/create").access("hasRole('ADMIN', 'SELLER')")
-					.antMatchers("/demo/item/buy").access("hasRole('ADMIN', 'SELLER','BUYER')")
+					.antMatchers("/demo/item/create").access("hasAnyRole('ADMIN', 'SELLER')")
+					.antMatchers("/demo/item/buy").access("hasAnyRole('ADMIN', 'SELLER','BUYER')")
                 // all other requests need to be authenticated
                 .anyRequest().authenticated()
                 .and()

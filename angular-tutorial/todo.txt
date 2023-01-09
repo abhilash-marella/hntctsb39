@@ -1,0 +1,24 @@
+Install npm
+	Download and install nodejs
+	
+	$ node -v
+	$ npm -v
+
+	c:/users/arun/AppData/Local/npm => path variable in environment variables
+
+Install angular-cli
+	$ npm i -g @angular/cli
+	$ npm install -g @angular/cli
+	$ npm install @angular/cli -g
+	$ npm i @angular/cli -g
+
+	$ ng version
+
+
+Create angular project using angular-cli
+	$ ng new project-name
+	$ ng new tutorial
+	
+	upload without node_modules
+	
+	npm i => install all required dependecies given in package.json
