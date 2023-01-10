@@ -1,0 +1,13 @@
+<h2>Service/DI demo</h2>
+
+
+<input #fn type="number"/>  
+<br/>
+<input #sn type="number"/> 
+<br/>
+<h5>Result: {{result}}</h5>
+
+<hr/>
+<button (click)="calculateNums('add', +fn.value, +sn.value)">Add</button>
+<button (click)="calculateNums('mul', +fn.value, +sn.value)">Mul</button>
+<button (click)="calculateNums('div', +fn.value, +sn.value)">Div</button>
