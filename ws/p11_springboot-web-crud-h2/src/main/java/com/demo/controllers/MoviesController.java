@@ -16,7 +16,7 @@ import com.demo.services.MovieService;
 
 @RestController
 @RequestMapping("/moviesapp/v1/movies")
-@CrossOrigin(origins = {"https://hoppscotch.io/"})
+@CrossOrigin(origins = {"https://hoppscotch.io/", "http://localhost:4200/"})
 public class MoviesController {
     @Autowired
     private MovieService movieService;

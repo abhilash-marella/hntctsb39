@@ -1,0 +1,21 @@
+<h2>Directives - Attribute</h2>
+<button (click)="toggle()">ChangeFlag: {{flag}}</button>
+
+<ul>
+    <li class="success">This is list 1</li>
+    <li class="error">This is list 2</li>
+    <li [ngClass]="flag?'success':'error'">This is list 3</li>
+    <li [ngClass]="myCssClass">This is list 4</li>
+</ul>
+
+<ul>
+    <li [ngStyle]="{
+        backgroundColor: 'blue',
+        color: 'white'
+    }">This is list 1</li>
+    
+    <li [ngStyle]="myStyleObj">This is list 2</li>
+    <li>This is list 3</li>
+    <li>This is list 4</li>
+</ul>
+ 

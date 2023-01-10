@@ -1,0 +1,25 @@
+<h2>Directives - Structural</h2>
+
+<button (click)="saveMoive()">Add Movie</button>
+<p *ngIf="movies.length == 0" [ngStyle]="{color: 'red'}">Movie list is empty</p>
+
+<table border="1" *ngIf="movies.length>0">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let movie of movies;let i=index">
+            <td>{{i+1}}</td>
+            <td>{{movie.id}}</td>
+            <td>{{movie.title}}</td>
+            <td>{{movie.director}}</td>
+            <td>{{movie.rating}}</td>
+        </tr>
+    </tbody>
+</table>
