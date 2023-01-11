@@ -1,0 +1,19 @@
+<h2>Login Form</h2>
+
+<form [formGroup]="myForm">
+    <div>
+        Username: <input formControlName="username" type="text" placeholder="Enter username" /><br/>
+        <span *ngIf="myForm.controls['username'].invalid && myForm.controls['username'].dirty" [ngStyle]="{color: 'red'}">
+            <span *ngIf="!!myForm.controls['username'].errors && myForm.controls['username'].errors['required']">
+                Username can not be empty<br/>
+            </span>
+            <span *ngIf="!!myForm.controls['username'].errors && myForm.controls['username'].errors['pattern']">
+                Username can only contain alphabets<br/>
+            </span>
+        </span>
+    </div>
+
+    Password: <input formControlName="password" type="text" placeholder="Enter password"/><br/>
+
+    <input type="button" value="Login" (click)="getLogin()" [disabled]="myForm.invalid" />
+</form>
