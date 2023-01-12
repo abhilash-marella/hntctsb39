@@ -11,7 +11,10 @@ import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 // import { AppModule } from "./09-routing/app.module";
 // import { AppModule } from "./10-nestModules/app.module";
 // import { AppModule } from "./11-route-params/app.module";
-import { AppModule } from "./12-form/app.module";
+// import { AppModule } from "./12-form/app.module";
+// import { AppModule } from "./13-exception/app.module";
+// import { AppModule } from "./14-logger/app.module";
+import { AppModule } from "./15-state-management/app.module";
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)

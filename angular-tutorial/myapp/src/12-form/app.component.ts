@@ -8,7 +8,6 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent {
 
-
   myForm:FormGroup;
 
   constructor(){
