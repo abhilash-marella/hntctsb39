@@ -1,0 +1,21 @@
+GET http://ec2-3-87-213-238.compute-1.amazonaws.com:8080/api/movies
+
+###
+
+POST http://ec2-3-87-213-238.compute-1.amazonaws.com:8080/api/movies
+content-type: application/json
+
+ {
+    "title": "No-one is better than wife",
+    "director": "arun",
+    "rating": 4.5
+  }
+
+
+###
+
+GET https://7o912k4iw5.execute-api.us-east-1.amazonaws.com/emps
+
+###
+
+GET https://7o912k4iw5.execute-api.us-east-1.amazonaws.com/emps/7
