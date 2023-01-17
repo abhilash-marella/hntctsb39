@@ -1,25 +1,7 @@
-Angular Fundamentals
-Architecture
-File Structure
-Components
-CLI Commands
-Routing
-Directives
-Pipes
-Databinding
-Forms
-Dependency Injection
-Module
 
-Breakpoints
-Examine variables
+Exception Handling 
 Logging
-Browsers' Debugging Tools
-Pause Code with Breakpoints
-Debug Background Service
 
 State Management  
-Use Lazy Loading and Using Sass    
-Exception Handling and Logging
 
 Popular angular libraries like Angular Material, Bootstrap,rxjs, ngrx/store 

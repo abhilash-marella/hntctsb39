@@ -1,0 +1,31 @@
+<h2>Pipes</h2>
+
+<p>ID: {{idObj}}</p>
+<p>ID: {{idObj.toDateString()}}</p>
+
+<p>ID: {{idObj|date}}</p>
+<hr/>
+
+<p>ID("M/dd/yy"): {{idObj|date:"M/dd/yy"}}</p>
+<p>ID("MM/dd/yy"): {{idObj|date:"MM/dd/yy"}}</p>
+<p>ID("MMM/dd/yy"): {{idObj|date:"MMM/dd/yy"}}</p>
+<p>ID("dd-MMMM-yyyy @ hh:mm"): {{idObj|date:"dd-MMMM-yyyy @ hh:mm"}}</p>
+<hr/>
+
+<p>Movies: {{movies | json}}</p>
+<p>Movies: {{movies[1] | json}}</p>
+
+<hr/>
+
+<p>Salary: {{salary|currency}}</p>
+<p>Salary: {{salary|currency:'INR'}}</p>
+<p>Salary: {{salary|currency:'YEN'}}</p>
+<p>Salary: {{salary|currency:'EUR'}}</p>
+
+
+<hr/>
+
+<p>EmpName: {{empName}}</p>
+<p>EmpName(uppercase): {{empName|uppercase}}</p>
+<p>EmpName(capitalize): {{empName|capitalize}}</p>
+<p>EmpName(capitalize:false): {{empName|capitalize:false}}</p>
